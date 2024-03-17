@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-17T20:18:07 IST" name="Suite" finished-at="2024-03-17T20:21:27 IST" duration-ms="200017">
+    <groups>
+      <group name="regression">
+        <method signature="TC_002_Car_Insurance.main()[pri:0, instance:Testcases.TC_002_Car_Insurance@b2c9a9c]" name="main" class="Testcases.TC_002_Car_Insurance"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_001_travel_Insurance.main()[pri:0, instance:Testcases.TC_001_travel_Insurance@710f4dc7]" name="main" class="Testcases.TC_001_travel_Insurance"/>
+        <method signature="TC_003_Health_Insurance.main()[pri:0, instance:Testcases.TC_003_Health_Insurance@4c178a76]" name="main" class="Testcases.TC_003_Health_Insurance"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_travel_Insurance.main()[pri:0, instance:Testcases.TC_001_travel_Insurance@710f4dc7]" name="main" class="Testcases.TC_001_travel_Insurance"/>
+        <method signature="TC_002_Car_Insurance.main()[pri:0, instance:Testcases.TC_002_Car_Insurance@b2c9a9c]" name="main" class="Testcases.TC_002_Car_Insurance"/>
+        <method signature="TC_003_Health_Insurance.main()[pri:0, instance:Testcases.TC_003_Health_Insurance@4c178a76]" name="main" class="Testcases.TC_003_Health_Insurance"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-17T20:18:07 IST" name="Test" finished-at="2024-03-17T20:21:27 IST" duration-ms="200017">
+      <class name="Testcases.TC_002_Car_Insurance">
+        <test-method is-config="true" signature="getWebDriver(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC_002_Car_Insurance@b2c9a9c]" started-at="2024-03-17T20:19:16 IST" name="getWebDriver" finished-at="2024-03-17T20:19:21 IST" duration-ms="5457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method signature="main()[pri:0, instance:Testcases.TC_002_Car_Insurance@b2c9a9c]" started-at="2024-03-17T20:19:21 IST" name="main" finished-at="2024-03-17T20:20:06 IST" duration-ms="44807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="closeBowser()[pri:0, instance:Testcases.TC_002_Car_Insurance@b2c9a9c]" started-at="2024-03-17T20:20:06 IST" name="closeBowser" finished-at="2024-03-17T20:20:07 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBowser -->
+      </class> <!-- Testcases.TC_002_Car_Insurance -->
+      <class name="Testcases.TC_001_travel_Insurance">
+        <test-method is-config="true" signature="getWebDriver(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC_001_travel_Insurance@710f4dc7]" started-at="2024-03-17T20:18:07 IST" name="getWebDriver" finished-at="2024-03-17T20:18:17 IST" duration-ms="9300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method signature="main()[pri:0, instance:Testcases.TC_001_travel_Insurance@710f4dc7]" started-at="2024-03-17T20:18:17 IST" name="main" finished-at="2024-03-17T20:19:14 IST" duration-ms="57779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="closeBowser()[pri:0, instance:Testcases.TC_001_travel_Insurance@710f4dc7]" started-at="2024-03-17T20:19:15 IST" name="closeBowser" finished-at="2024-03-17T20:19:16 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBowser -->
+      </class> <!-- Testcases.TC_001_travel_Insurance -->
+      <class name="Testcases.TC_003_Health_Insurance">
+        <test-method is-config="true" signature="getWebDriver(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC_003_Health_Insurance@4c178a76]" started-at="2024-03-17T20:20:07 IST" name="getWebDriver" finished-at="2024-03-17T20:20:12 IST" duration-ms="4758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method signature="main()[pri:0, instance:Testcases.TC_003_Health_Insurance@4c178a76]" started-at="2024-03-17T20:20:12 IST" name="main" finished-at="2024-03-17T20:20:50 IST" duration-ms="37550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="closeBowser()[pri:0, instance:Testcases.TC_003_Health_Insurance@4c178a76]" started-at="2024-03-17T20:20:50 IST" name="closeBowser" finished-at="2024-03-17T20:20:51 IST" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBowser -->
+      </class> <!-- Testcases.TC_003_Health_Insurance -->
+      <class name="Testcases.TC_004_Health_insurance_products">
+        <test-method is-config="true" signature="getWebDriver(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC_004_Health_insurance_products@fa4c865]" started-at="2024-03-17T20:20:51 IST" name="getWebDriver" finished-at="2024-03-17T20:20:56 IST" duration-ms="4721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebDriver -->
+        <test-method signature="main()[pri:0, instance:Testcases.TC_004_Health_insurance_products@fa4c865]" started-at="2024-03-17T20:20:56 IST" name="main" finished-at="2024-03-17T20:21:26 IST" duration-ms="29824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="closeBowser()[pri:0, instance:Testcases.TC_004_Health_insurance_products@fa4c865]" started-at="2024-03-17T20:21:26 IST" name="closeBowser" finished-at="2024-03-17T20:21:27 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBowser -->
+      </class> <!-- Testcases.TC_004_Health_insurance_products -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
